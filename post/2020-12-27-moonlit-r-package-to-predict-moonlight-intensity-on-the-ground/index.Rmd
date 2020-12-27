@@ -1,0 +1,16 @@
+---
+title: moonlit - R package to predict moonlight intensity on the ground
+author: ''
+date: '2020-12-27'
+slug: []
+categories:
+  - R
+  - code
+  - ecology
+tags: []
+description: ''
+featured: ''
+featuredalt: ''
+featuredpath: ''
+linktitle: ''
+---

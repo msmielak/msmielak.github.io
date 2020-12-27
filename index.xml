@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michal Smielak</title>
+    <link>/</link>
+    <description>Recent content on Michal Smielak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My name is Michał Śmielak. I&amp;rsquo;m an wildlife biologist, working in the field handling animals and in the office wrangling data. Originally from Poland, over the years I have been involved in projects in Europe, Australia and Africa.
+I am interested in various aspects of animal ecology, including (but not limited to) behavioural ecology of mammals, reptiles and amphibians, conservation, ecosystem management and human-wildlife conflicts.
+I write code (mostly in R) to transform raw data collected in the field into results and conservation outcomes.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>/photo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photo/</guid>
+      <description>I sometime take photos, mostly of nature and landscape. Some of my photos won awards in competitions.
+I am always happy to give permission for my photos to be used for a good cause. If you would like to use one of my photos to promote a worthy casue, in educational or conservation project, please get in touch with me,
+If you want to buy one of my photos - either as a print or for digital use, send me a message and we can work out details.</description>
+    </item>
+    
+    <item>
+      <title>Reproductible code</title>
+      <link>/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/</guid>
+      <description>Below you will find various examples of reproductible code that I came up with over the years - mostly functions and packages developped in R to help with ecological data analysis. Hopefully, this will be updated over time.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/technology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
