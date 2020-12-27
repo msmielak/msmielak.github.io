@@ -43,7 +43,9 @@ If you want to buy one of my photos - either as a print or for digital use, send
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/code/</guid>
-      <description>Below you will find various examples of reproductible code that I came up with over the years - mostly functions and packages developped in R to help with ecological data analysis. Hopefully, this will be updated over time.</description>
+      <description>Below you will find various examples of reproductible code that I came up with over the years - mostly functions and packages developped in R to help with ecological data analysis. Hopefully, this will be updated over time.
+ moonlit package 
+moonlit - R package I&amp;rsquo;ve been deveoping since 2018. It is a model to predict moonlight intensity on the ground for any given place and time, based on the position of the moon and a number of correction factors.</description>
     </item>
     
     <item>
