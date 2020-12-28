@@ -66,7 +66,9 @@ Trapping and handling animals, using GPS and VHF telemetry to measure spatio-tem
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/technology/</guid>
-      <description></description>
+      <description>Various electronic bibs and bobs, mostly for use in wildlife research.
+ wilduino 
+wilduino is a project of an animal-borne logger. In its concept it is a modular, open-source device consisting of a microcontroller board and a range of &amp;ldquo;shields&amp;rdquo;, similar to Arduino desing, but much smaller. First prototypes include GPS, 9 DOF IMU and altimeter to track 3D movements of animals. Base board (Arduino-based) also has LoRa communication.</description>
     </item>
     
   </channel>
