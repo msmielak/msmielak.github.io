@@ -510,7 +510,7 @@ ocr(test, engine = numbers)
 <p>Then you need to repeat the training process with your new data using <em>Train with existing box</em>, then <em>Shape Clustering</em> and finally, <em>Dictionary</em> and the result is your new &ldquo;language&rdquo; that can be then used as a parameter in the tesseract() function. Great thing is that it takes a couple of minutes and not hours like in the previous method.</p>
 <p>Now, using the custom engine, I was getting <strong>100% accuracy</strong> (I checked it on 2000 sample photos and there was not a single error) - finally! We can now move to a final code to run through the dataset, extract dates and time and write them into a .csv file. Our photos are already arranged into folders by camera and species so we can use the file path to easily extract these values afterwards.</p>
 <p>The last thing to mention is that, like in my first example, there are some narrow strips on some crops that are read as digits. Luckily, they are always separated by a space, so we can add a line to remove that space and everything after it from our read values. We also need to get rid of the new line symbol [\n] at the end of each record which tesseract adds automatically - we will do with another line of code.</p>
-<p>#Final code</p>
+<h1 id="final-code">Final code</h1>
 <p>This is what the final code looks like:</p>
 <pre><code class="language-{r}" data-lang="{r}">### Extracting metadata from camera trap images
 
