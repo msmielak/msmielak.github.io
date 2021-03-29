@@ -13,7 +13,7 @@
         "articleSection" : "post",
         "name" : "Extracting date and time from camera trap photos using R and tesseract",
         "headline" : "Extracting date and time from camera trap photos using R and tesseract",
-        "description" : "Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken.",
+        "description" : "Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -24,7 +24,7 @@
         "datePublished": "2021-03-29 00:00:00 \u002b0000 UTC",
         "dateModified" : "2021-03-29 00:00:00 \u002b0000 UTC",
         "url" : "\/post\/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract\/",
-        "wordCount" : "1998",
+        "wordCount" : "2001",
         "keywords" : [ "R","code","camera trap","OCR","Blog" ]
     }
     </script>
@@ -47,11 +47,11 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Extracting date and time from camera trap photos using R and tesseract"/>
-<meta name="twitter:description" content="Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."/>
+<meta name="twitter:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."/>
 <meta name="twitter:site" content="@MichalSmielak"/>
 
         <meta property="og:title" content="Extracting date and time from camera trap photos using R and tesseract" />
-<meta property="og:description" content="Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken." />
+<meta property="og:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-29T00:00:00&#43;00:00" />
@@ -63,9 +63,9 @@
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta itemprop="name" content="Extracting date and time from camera trap photos using R and tesseract">
-<meta itemprop="description" content="Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."><meta itemprop="datePublished" content="2021-03-29T00:00:00&#43;00:00" />
+<meta itemprop="description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."><meta itemprop="datePublished" content="2021-03-29T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-03-29T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1998">
+<meta itemprop="wordCount" content="2001">
 <meta itemprop="keywords" content="R,code,camera trap,OCR," />
         
 
@@ -499,8 +499,9 @@
   
 
   <div id="content">
-    <p>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken. Original metadata was embedded in the picture itself as text, like this:</p>
-<p><img src="images/pic.jpg" alt="Example of a camera trap photo with metadata written around the edge" /></p>
+    <h1 id="background">Background</h1>
+<p>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken. Original metadata was embedded in the picture itself as text, like this:</p>
+<p><img src="../images/pic.jpg" alt="Example of a camera trap photo with metadata written around the edge" /></p>
 <p>The manufacturer (Buckeye) eventually fixed this issue and after a firmware update photos now have metadata embedded in EXIF fields. However, to use all the data from before the update, we needed to assign date and time to each picture. It was done manually for some small subset but it is a tedious process prone to errors, so I decided to try and automate it.</p>
 <h1 id="ocr-and-the-tesseract-package">OCR and the tesseract package</h1>
 <p>I have used OCR (optical character recognition) software before and I thought there is probably an R package that can read the text and sure enough - a powerful, open-source OCR engine tesseract can be used in R using a package <a href="https://cran.r-project.org/web/packages/tesseract/index.html">tesseract</a>.</p>
@@ -609,6 +610,7 @@ ocr(test, engine = buc)
 <p>Then you need to repeat the training process with your new data using <em>Train with existing box</em>, then <em>Shape Clustering</em> and finally, <em>Dictionary</em> and the result is your new &ldquo;language&rdquo; that can be then used as a parameter in the tesseract() function. Great thing is that it takes a couple of minutes and not hours like in the previous method.</p>
 <p>Now, using the custom engine, I was getting <strong>100% accuracy</strong> (I checked it on 2000 sample photos and there was not a single error) - finally! We can now move to a final code to run through the dataset, extract dates and time and write them into a .csv file. Our photos are already arranged into folders by camera and species so we can use the file path to easily extract these values afterwards.</p>
 <p>The last thing to mention is that, like in my first example, there are some narrow strips on some crops that are read as digits. Luckily, they are always separated by a space, so we can add a line to remove that space and everything after it from our read values. We also need to get rid of the new line symbol [\n] at the end of each record which tesseract adds automatically - we will do with another line of code.</p>
+<p>#Final code</p>
 <p>This is what the final code looks like:</p>
 <pre><code class="language-{r}" data-lang="{r}">### Extracting metadata from camera trap images
 
