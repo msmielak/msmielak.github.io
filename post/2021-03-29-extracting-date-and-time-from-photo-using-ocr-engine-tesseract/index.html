@@ -501,7 +501,7 @@
   <div id="content">
     <h1 id="background">Background</h1>
 <p>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken. Original metadata was embedded in the picture itself as text, like this:</p>
-<p><img src="../images/pic.jpg" alt="Example of a camera trap photo with metadata written around the edge" /></p>
+<p><img src="img/ocr/pic.jpg" alt="Example of a camera trap photo with metadata written around the edge" /></p>
 <p>The manufacturer (Buckeye) eventually fixed this issue and after a firmware update photos now have metadata embedded in EXIF fields. However, to use all the data from before the update, we needed to assign date and time to each picture. It was done manually for some small subset but it is a tedious process prone to errors, so I decided to try and automate it.</p>
 <h1 id="ocr-and-the-tesseract-package">OCR and the tesseract package</h1>
 <p>I have used OCR (optical character recognition) software before and I thought there is probably an R package that can read the text and sure enough - a powerful, open-source OCR engine tesseract can be used in R using a package <a href="https://cran.r-project.org/web/packages/tesseract/index.html">tesseract</a>.</p>
