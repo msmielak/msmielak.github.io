@@ -249,7 +249,7 @@
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from photo using R and tesseract</a></h3>
+                                <h3><a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from camera trap photos using R and tesseract</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2021-03-29'>
@@ -287,7 +287,7 @@
   <header>
     <div class="title">
         
-            <h2><a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from photo using R and tesseract</a></h2>
+            <h2><a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from camera trap photos using R and tesseract</a></h2>
         
         
     </div>
@@ -314,7 +314,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;text=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract&amp;via=MichalSmielak" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;text=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract&amp;via=MichalSmielak" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -345,7 +345,7 @@
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -355,7 +355,7 @@
 
 
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -365,7 +365,7 @@
 
 
 <li>
-  <a href="//www.stumbleupon.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn stumbleupon">
+  <a href="//www.stumbleupon.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
   </a>
@@ -375,7 +375,7 @@
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;description=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;description=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -492,7 +492,7 @@ for (row in 1:NROW(files)) {
   image_write(time, newfile, quality=100)
   
 }
-</code></pre><p>Now we can move to software for tesseract training (it can be done from the terminal as well, but since I had no prior experience with tesseract, I found this software to be easier to use). We need to download <a href="http://vietocr.sourceforge.net/training.html">jTessBoxEditor</a> and follow the instructions. Combine our training files into a multi-page TIFF (Tools-&gt;Merge TIFF), then we go to the trainer tab, select our input file (the newly generated TIFF) and select <em>Generate Box File</em> from the drop-down list. It will then generate a box around each digit and we can then edit them to assign correct values:</p>
+</code></pre><p>Now we can move to software for tesseract training (it can be done from the terminal as well, but since I had no prior experience with tesseract, I found this software to be easier to use). We need to download <a href="http://vietocr.sourceforge.net/training.html">jTessBoxEditor</a> and follow the instructions. Combine our training files into a multi-page TIFF (Tools-&gt;Merge TIFF), then we go to the <em>Trainer</em> tab, select our input file (the newly generated TIFF) and select <em>Generate Box File</em> from the drop-down list. It will then generate a box around each digit. We can now move to the <em>Box Editor</em> tab, load our newly generated training set  and go through the boxes and edit them to assign correct values:</p>
 <p><img src="images/box.png" alt="training boxes"></p>
 <p>I did that for a sample of 140 dates and times. We then save our training data, go back to the trainer tab and use it for the actual training, selecting functions: <em>Train with existing box</em>, then <em>Shape Clustering</em> and finally <em>Dictionary</em>. This results in a new &ldquo;language&rdquo; (in our case simply a font) that can be used as a parameter in the OCR engine.</p>
 <p>So we need to set up this new engine by assigning a language (I called it &ldquo;buc&rdquo;). We can further help tesseract by limiting the symbols it will look for to just digits, &ldquo;/&rdquo; and &ldquo;:&rdquo;&quot; since there are no other characters in the date and time fields:</p>
@@ -672,7 +672,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;text=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract&amp;via=MichalSmielak" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;text=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract&amp;via=MichalSmielak" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -703,7 +703,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -713,7 +713,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -723,7 +723,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 <li>
-  <a href="//www.stumbleupon.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn stumbleupon">
+  <a href="//www.stumbleupon.com/submit?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;title=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
   </a>
@@ -733,7 +733,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;description=Extracting%20date%20and%20time%20from%20photo%20using%20R%20and%20tesseract" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2f2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract%2f&amp;description=Extracting%20date%20and%20time%20from%20camera%20trap%20photos%20using%20R%20and%20tesseract" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -892,7 +892,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
           <article class="mini-post">
             <header>
               <h3>
-                <a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from photo using R and tesseract</a>
+                <a href="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/">Extracting date and time from camera trap photos using R and tesseract</a>
               </h3>
               
               <time class="published" datetime='2021-03-29'>
