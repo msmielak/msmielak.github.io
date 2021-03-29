@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on Michal Smielak</title>
+    <link>/tags/code/</link>
+    <description>Recent content in code on Michal Smielak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extracting date and time from photo using R and tesseract</title>
+      <link>/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/</guid>
+      <description>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken.</description>
+    </item>
+    
+  </channel>
+</rss>
