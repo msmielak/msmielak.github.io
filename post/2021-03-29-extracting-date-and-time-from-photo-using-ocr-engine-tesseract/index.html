@@ -13,7 +13,7 @@
         "articleSection" : "post",
         "name" : "Extracting date and time from camera trap photos using R and tesseract",
         "headline" : "Extracting date and time from camera trap photos using R and tesseract",
-        "description" : "Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken.",
+        "description" : "Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps was set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from one camera to another and finally to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -24,7 +24,7 @@
         "datePublished": "2021-03-29 00:00:00 \u002b0000 UTC",
         "dateModified" : "2021-03-29 00:00:00 \u002b0000 UTC",
         "url" : "\/post\/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract\/",
-        "wordCount" : "2002",
+        "wordCount" : "2029",
         "keywords" : [ "R","code","camera trap","OCR","Blog" ]
     }
     </script>
@@ -47,11 +47,11 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Extracting date and time from camera trap photos using R and tesseract"/>
-<meta name="twitter:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."/>
+<meta name="twitter:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps was set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from one camera to another and finally to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."/>
 <meta name="twitter:site" content="@MichalSmielak"/>
 
         <meta property="og:title" content="Extracting date and time from camera trap photos using R and tesseract" />
-<meta property="og:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken." />
+<meta property="og:description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps was set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from one camera to another and finally to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-29T00:00:00&#43;00:00" />
@@ -63,9 +63,9 @@
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta itemprop="name" content="Extracting date and time from camera trap photos using R and tesseract">
-<meta itemprop="description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."><meta itemprop="datePublished" content="2021-03-29T00:00:00&#43;00:00" />
+<meta itemprop="description" content="Background Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps was set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from one camera to another and finally to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken."><meta itemprop="datePublished" content="2021-03-29T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-03-29T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="2002">
+<meta itemprop="wordCount" content="2029">
 <meta itemprop="keywords" content="R,code,camera trap,OCR," />
         
 
@@ -500,11 +500,11 @@
 
   <div id="content">
     <h1 id="background">Background</h1>
-<p>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps has been set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from each camera to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken. Original metadata was embedded in the picture itself as text, like this:</p>
+<p>Recently I came across an interesting issue. My University runs a field station at a rural property called Newholme where a grid of camera traps was set up a few years back. Cameras are solar-powered and form a mesh network where photos are relayed from one camera to another and finally to the base station located at the station building. Unfortunately, due to a firmware bug, for the first few years, the EXIF data was wiped from each photo as it was relayed so we could only get the date and time when the file was saved on the base station, which could be minutes or days after it was taken. Original metadata was embedded in the picture itself as text, like this:</p>
 <p><img src="https://raw.githubusercontent.com/msmielak/msmielak.github.io/main/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/images/pic.jpg" alt="Example of a camera trap photo with metadata written around the edge" /></p>
 <p>The manufacturer (Buckeye) eventually fixed this issue and after a firmware update photos now have metadata embedded in EXIF fields. However, to use all the data from before the update, we needed to assign date and time to each picture. It was done manually for some small subset but it is a tedious process prone to errors, so I decided to try and automate it.</p>
 <h1 id="ocr-and-the-tesseract-package">OCR and the tesseract package</h1>
-<p>I have used OCR (optical character recognition) software before and I thought there is probably an R package that can read the text and sure enough - a powerful, open-source OCR engine tesseract can be used in R using a package <a href="https://cran.r-project.org/web/packages/tesseract/index.html">tesseract</a>.</p>
+<p>I have used OCR (optical character recognition) software before and I thought there is probably an R package that can read the text and sure enough - a powerful, open-source OCR engine tesseract is availabe in R through a package <a href="https://cran.r-project.org/web/packages/tesseract/index.html">tesseract</a>.</p>
 <p>We will need a couple of libraries first:</p>
 <pre><code class="language-{r}" data-lang="{r}">
 library(magick)
@@ -549,7 +549,7 @@ ocr(date)
 <p>&ldquo;3/13/2415 |\n&rdquo;</p>
 </blockquote>
 <p>As you can see, tesseract wrongly identified 0 as 4. For other photos, the results varied from correct or almost correct to a random sequence of letters and digits that didn&rsquo;t make any sense. The &ldquo;pixelated&rdquo; font that the camera is using is making it hard for the engine to read some digits correctly. We need to dig deeper and make use of the tesseract training mechanism.</p>
-<p>To do that we can prepare a training set consisting of our preprocessed crops, load them into a program, generate a box for each digit and then assign it a correct value. We can use a simple loop to crop date and time fields from each photo, preprocess it and save it as a new file:</p>
+<p>To do that we can prepare a training set consisting of our preprocessed crops, load them into a program, generate a box for each digit and then assign it a correct value. We can generate our training dataset using a simple loop to crop date and time fields from each photo, preprocess it and save each one as a new file:</p>
 <pre><code class="language-{r}" data-lang="{r}">
 #create a list of training files
 files &lt;- list.files(path=&quot;./Datasets/02a&quot;, full.names=TRUE)
@@ -593,14 +593,14 @@ for (row in 1:NROW(files)) {
   image_write(time, newfile, quality=100)
   
 }
-</code></pre><p>Now we can move to software for tesseract training (it can be done from the terminal as well, but since I had no prior experience with tesseract, I found this software to be easier to use). We need to download <a href="http://vietocr.sourceforge.net/training.html">jTessBoxEditor</a> and follow the instructions. Combine our training files into a multi-page TIFF (Tools-&gt;Merge TIFF), then we go to the <em>Trainer</em> tab, select our input file (the newly generated TIFF) and select <em>Generate Box File</em> from the drop-down list. It will then generate a box around each digit. We can now move to the <em>Box Editor</em> tab, load our newly generated training set  and go through the boxes and edit them to assign correct values:</p>
+</code></pre><p>Now we can move to software for tesseract training (it can be done from the terminal as well, but since I had no prior experience with tesseract, I found this software to be easier to use). We need to download <a href="http://vietocr.sourceforge.net/training.html">jTessBoxEditor</a> and follow the instructions. Combine our training files into a multi-page TIFF (Tools-&gt;Merge TIFF), then we go to the <em>Trainer</em> tab, select our input file (the newly generated TIFF) and select <em>Generate Box File</em> from the drop-down list. It will then generate a box around each digit and assign values, best it can. We can now move to the <em>Box Editor</em> tab, load our newly generated training set and go through the boxes and edit them to fix values that were wrongly assigned:</p>
 <p><img src="https://raw.githubusercontent.com/msmielak/msmielak.github.io/main/post/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/images/box.png" alt="training boxes" /></p>
 <p>I did that for a sample of 142 dates and times (around 2000 characters in total). We then save our training data, go back to the trainer tab and use it for the actual training, selecting functions: <em>Train with existing box</em>, then <em>Shape Clustering</em> and finally <em>Dictionary</em>. This results in a new &ldquo;language&rdquo; (in our case simply a font) that can be used as a parameter in the OCR engine.</p>
 <p>So we need to set up this new engine by assigning a language (I called it &ldquo;buc&rdquo;). We can further help tesseract by limiting the symbols it will look for to just digits, &ldquo;/&rdquo; and &ldquo;:&rdquo;&quot; since there are no other characters in the date and time fields:</p>
 <pre><code class="language-{r}" data-lang="{r}">
 numbers &lt;- tesseract(&quot;buc&quot;, datapath = &quot;./Datasets/train&quot;, options = list(tessedit_char_whitelist = &quot;0123456789:/&quot;))
 
-ocr(test, engine = buc)
+ocr(test, engine = numbers)
 
 </code></pre><p>Running this on our dataset gives much better results, but for whatever reason, the engine is still struggling with some digits, particularly 6, 8 and 0. Even though these are generated by the camera trap and are identical, the same digit is sometimes read correctly, and sometimes not, with 8 being misread every single time as either 6 or 0. I spent hours trying to tweak the training data and even though it met all the guidelines (more than 20 instances of every digit etc.) I could never get it to work. Not only that, I couldn&rsquo;t find a good reason for it not working <strong>sometimes</strong> but then working well <strong>on the same digits</strong>, just in different order.</p>
 <p>I then decided to see if the camera is using an existing font as jTessBoxEditor has an option to generate training files using a known font and it was recommended in the tesseract manual as the best way to train the data. I took a sample date and uploaded it to online font recognition websites like <em>WhatTheFont!</em> and <em>What Font Is</em>, found some similar looking (but not identical) fonts and tried that, but it didn&rsquo;t make a huge difference and in some cases made it worse. So finally I came up with an idea to create a custom font that would be as close as possible to the one used by Buckeye and use that for training. I found a very helpful website <a href="calligraphr.com">calligraphr</a> which allows you to create a font from your handwriting. You select the symbols you want to use, then you download an automatically generated template to fill with your handwriting (in my case - paste in preprocessed digits) and upload it back to the website which converts it into a font:</p>
@@ -704,7 +704,7 @@ write.csv(output, &quot;extracted_date_and_time.csv&quot;)
 
 
 </code></pre><p>You can now put all the photos to be tagged into the Data folder and execute the code. Depending on how many photos you have, how large your photos are and how fast your computer is it can take from minutes to hours. I was getting around 200 photos per minute on my 7 years old laptop, while my supervisor was going through more than 1000 photos per minute on his much newer and faster Mac. Still, I recommend running it in smaller chunks, that way in case of an error you are not losing 10h of processing.</p>
-<p>I intentionally didn&rsquo;t want to do any editing of the data and have the results saved as a separate .csv file. In case you want to rename your photos and write this metadata into the picture itself, I recommend you read a very informative <a href="https://johnpvanek.weebly.com/intothephrag/archives/07-2019">post</a> by John Vanek where he details how he did that. Luckily, he was able to use the default tesseract engine with great success and if your camera has better resolution and uses a more standard font, you might not need to worry about training the engine at all.</p>
+<p>I intentionally didn&rsquo;t want to do any editing of the existing photos (disk space, maintaining 2 copies etc) and instead decided to save the results as a separate .csv file. In case you want to rename your photos and write this metadata into the picture itself, I recommend you read a very informative <a href="https://johnpvanek.weebly.com/intothephrag/archives/07-2019">post</a> by John Vanek where he details how he to manipulate EXIF data. Luckily, he was able to use the default tesseract engine with great success and if your camera has better resolution and uses a more standard font, you might not need to worry about training the engine at all.</p>
 
   </div>
 
