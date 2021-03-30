@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Michal Smielak</title>
-    <link>/tags/</link>
+    <link>https://msmielak.github.io/tags/</link>
     <description>Recent content in Tags on Michal Smielak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msmielak.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>camera trap</title>
-      <link>/tags/camera-trap/</link>
+      <link>https://msmielak.github.io/tags/camera-trap/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/camera-trap/</guid>
+      <guid>https://msmielak.github.io/tags/camera-trap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>/tags/code/</link>
+      <link>https://msmielak.github.io/tags/code/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/code/</guid>
+      <guid>https://msmielak.github.io/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OCR</title>
-      <link>/tags/ocr/</link>
+      <link>https://msmielak.github.io/tags/ocr/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ocr/</guid>
+      <guid>https://msmielak.github.io/tags/ocr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://msmielak.github.io/tags/r/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://msmielak.github.io/tags/r/</guid>
       <description></description>
     </item>
     
