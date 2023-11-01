@@ -1,0 +1,33 @@
+---
+title: "About me"
+---
+
+![](images/rsz_about_photo-01.jpg){fig-alt="Photo of the page author"}
+
+My name is Michał Śmielak. I'm an wildlife biologist, working in the field handling animals and in the office wrangling data. Originally from Poland, over the years I have been involved in projects in Europe, Australia and Africa.
+
+I am interested in various aspects of animal ecology, including (but not limited to) behavioural ecology of mammals, reptiles and amphibians, conservation, ecosystem management and human-wildlife conflicts.
+
+I write code (mostly in R) to transform raw data collected in the field into results and conservation outcomes. I also build custom research equipment, often using Arduino and other open-source platforms, usually when there is no off-the-shelf solution to measure something and sometimes just for fun.
+
+This website is hopefully going to be a repository of my various projects and a way to share them with fellow researchers.
+
+# Education
+
+![](images/rsz_screenshot_2020-12-28_une_home.png)
+
+**2014-**
+
+PhD candidate at the School of Environmental and Rural Sciences
+
+University of New England in Armidale, Australia.
+
+------------------------------------------------------------------------
+
+![](images/rsz_pol_university_of_warsaw_logosvg.png){width="92"}
+
+**2006-2012**
+
+MSc in environmental protection, Inter-Faculty Studies in Environmental Protection (MSOŚ)
+
+Centre for the Studies of Envoronment and Sustainability, Unviersity of Warsaw, Poland.

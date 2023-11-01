@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "d0ebfbda"
+  },
+  "about.qmd": {
+    "about.html": "df7eb5bf"
+  },
+  "research.qmd": {
+    "research.html": "81a7eab0"
+  },
+  "code.qmd": {
+    "code.html": "eb0d80e2"
+  },
+  "technology.qmd": {
+    "technology.html": "c6e65640"
+  },
+  "posts.qmd": {
+    "posts.html": "aab058fd"
+  },
+  "posts/2021-03-29-extracting-date-and-time-from-photo-using-ocr-engine-tesseract/index.qmd": {
+    "index.html": "4308f257"
+  }
+}

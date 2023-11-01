@@ -1,0 +1,17 @@
+---
+title: "Technology"
+---
+
+Various electronic hadware, mostly for use in wildlife research.
+
+------------------------------------------------------------------------
+
+# wilduino
+
+[![](images/NEU-Logger.jpg){fig-alt="3d render of a wilduino shield PCB" fig-align="left" width="150"}](https://github.com/msmielak/wilduino/)
+
+**wilduino** is a project of an animal-borne logger. In its concept, it is a modular, open-source device consisting of a microcontroller board and a range of "shields", similar to Arduino design, but much smaller and optimised for low power consumption. First prototypes include GPS, 9 DOF IMU and altimeter to track 3D movements of animals. Baseboard (Arduino-based) also has LoRa communication.
+
+The wilduino project is currently on hold, but PCB design and rudimentary code is available in a [GitHub repository](https://github.com/msmielak/wilduino/).
+
+This project was co-funded by the Holsworth Wildlife Research Endowment.

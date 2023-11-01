@@ -1,0 +1,86 @@
+---
+title: "Research"
+---
+
+## Ongoing projects
+
+**2014-**\
+**The community ecology of threatened, critical-weightrange, terrestrial mammals in response to wild canid and feral cat control.**\
+PhD project, part of the Predator-Prey-Plan-People project, Invasive Animals Cooperative Research Centre.\
+Trapping and handling animals, using GPS and VHF telemetry to measure spatio-temporal patterns of activity; extensive remote camera monitoring; experiments measuring non-direct effects of predation; using drones to collect hi-resolution habitat data; data analysis and modelling using R and QGIS.
+
+------------------------------------------------------------------------
+
+## Past projects
+
+**06.2013-01.2014**\
+**Survey of carnivorous mammals in the Augustowska Primeval Forest.**\
+Part of the Life11 NAT/PL/428 project "Active conservation of Western capercaillie *Tetrao urogallus* in Lower Silesian Forest and Augustowska Privemal Forest"\
+Project leader. Surveying 73300 ha of forests and ecotone habitat in order to estimate densities and activity patterns of large and medium-sized mammalian carnivores to inform best management and conservation practices for reintroduction of capercaillie.\
+Designing and implementing monitoring protocols, supervising teams of 5-10 people, collating and managing data, engaging with stakeholders and land managers, analysing data and preparing maps and final reports.
+
+**2012-2013**\
+**Management plan for Natura 2000 sites PLB180001 Pogorze Przemyskie and PLB180003 Gory Slonne**\
+Designing and conducting herpetological surveys of sites, identifying risk and proposing mitigation strategies for comprehensive species management. Producing a report including GIS data to for a part of the official management plan.
+
+**04-10.2013**\
+**Breeding ecology and conservation of the European pond turtle *Emys orbicularis*.**\
+Part of the POIŚ.05.01.00-00228/9 project "Protecting habitats and species in the Natura 2000 sites in Lubelskie voivodeship" Responsible for field data collection and analysis. The project consisted of several modules, including radio-telemetry and geospatial analysis of habitat use, locating nesting sites, collecting biometric data, geospatial data analysis and preparing maps and active conservation measures.
+
+**04-10.2012**\
+**Herpetological and mammal survey of the Vistula Spit.**\
+Responsible for designing and conducting a detailed and complex survey, consisting of various research methods, such as trapping, tracking and using trail cameras. Using GIS software to provide spatial data on species distribution; presenting the results in form of written report and maps.
+
+**2011-2014**\
+**Wildlife research assistant**\
+Supporting multiple research projects at the Institute of Ecology, Department of Biology, University of Warsaw.\
+Taking part in various surveys conducted by Institute crew. Field data collection, trapping and radio-tracking of different species and data processing. From 02.2012 a graduate research assistant in an original research on amphibian hibernation patterns.
+
+**03-06.2011**\
+**Conservation of Aquila pomarina in Romania**\
+Internship in the project: LIFE08 NAT/RO/000501 coordinated by Milvus Group. Târgu Mureş, Romania. Conducting extensive fieldwork (bird observation, habitat mapping), data collection and analysis, GIS data processing, as well as other activities concerning nature conservation in Transylvania.
+
+**03.2010-08.2011**\
+**Breeding avifauna of the small midfield ponds in Mazurian Lakeland**\
+MSc research at the Institute of Ecology, Department of Biology, University of Warsaw.\
+A survey on 25 small midfield ponds in a post-agricultural landscape of Mazurian Lakeland. The study consisted of 2-year census of breeding bird communities combined with detailed habitat mapping. Collected data was used to determine habitat preferences of different bird species and compared with a corresponding data on larger habitat patches, such as lakes and wetlands. Various techniques were used to collect field data; GIS and statistical software were used for data processing.
+
+------------------------------------------------------------------------
+
+## Scholarships and awards
+
+**2014-2018**\
+**Endeavour International Postgraduate Research Scholarship.**\
+Australian Government Department of Education, Science and Training
+
+**2016, 2017**\
+**Postgraduate student research grant**\
+Holsworth Wildlife Research Endowment, Ecological Society of Australia
+
+**03-06.2011**\
+**Erasmus+ Grant**\
+Internship at Milvus Group, Târgu Mureş, Romania
+
+------------------------------------------------------------------------
+
+## Peer-reviewed papers
+
+Śmielak, M.K., Ballard, G., Fleming, P.J.S. et al. **Brushtail possum terrestrial activity patterns are driven by climatic conditions, breeding and moonlight intensity.** Mamm Res 68, 547--560 (2023). <https://doi.org/10.1007/s13364-023-00691-5>
+
+Śmielak, M.K. **Biologically meaningful moonlight measures and their application in ecological research.** Behav Ecol Sociobiol 77, 21 (2023). <https://doi.org/10.1007/s00265-022-03287-2>
+
+## Conference papers
+
+**Howling at the moon. Towards biologically meaningful moonlight measures and how to apply them in ecological research.**\
+British Ecological Society 2020 Conference
+
+**Is enemy's enemy always a friend? Vague implications of wild dog control on a native marsupial herbivore.**\
+12th International Mammalogical Congress, Perth 2017
+
+## Other publications
+
+Pawlaczyk P., Kucharzyk S., Wolanski P., Zarzecki R., Melke A., Tatoj K., Wasiak P., Smielak M., Michalski R., Kuberski L. 2013: **Management plan for the Natura 2000 site Gory Slonne PLH180013 in podkarpakcie voivodeship.**\
+Fundacja Dziedzictwo Przyrodnicze & Klub Przyrodnikow, commisioned by the Regional Directorate for Environmental Protection in Rzeszow
+
+Smielak, M. 2012: **Herpetological and mammalogical survey**, in: *Environmental survey of the four sections of the Vistula Spit - potential locations of the shipping channel.*\
+Biuro Ekspertyz Przyrodniczo-Lesnych
